@@ -2,6 +2,11 @@
     "require": {
         "slim/slim": "^4.4",
         "slim/psr7": "^1.0",
-        "slim/http": "^1.0"
+        "slim/http": "^1.0",
+        "phpunit/phpunit": "^9.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
     }
 }
